@@ -1,0 +1,8 @@
+git clone https://github.com/cnmcgroup/Rdev.git
+cd Rdev
+git add .
+git  commit -m "changes log"  
+git push -u origin master  
+
+
+# git fetch  同步git 到本地.
