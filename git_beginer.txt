@@ -12,4 +12,5 @@ git push -u origin master
 
 # 合并所有文件提交到github.com
 # git commit -am "Chanage Log"
-
+# 合并到github.com
+# git push 
