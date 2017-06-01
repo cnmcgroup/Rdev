@@ -5,7 +5,7 @@ git  commit -m "changes log"
 git push -u origin master  
 
 
-# git fetch  同步git 到本地.
+# git pull 同步git 到本地.
 # 编辑、修改文件
 # 
 
