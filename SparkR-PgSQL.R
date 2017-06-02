@@ -14,7 +14,11 @@ spark <- sparkR.session(master = "spark://10.1.100.128:7077", sparkConfig = list
 #sc <- sparkR.init(master='local',sparkEnvir=list(spark.driver.memory="2g"))
 #sqlContext <- sparkRSQL.init(sc)
 
-library(dplyr)
+#library(dplyr)
+# load pipe library
+library(magrittr)
+
+# load PostgreSQL Database driver library
 library(RPostgreSQL)
 
 

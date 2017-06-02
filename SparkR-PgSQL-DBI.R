@@ -4,8 +4,11 @@ if (nchar(Sys.getenv('SPARK_HOME')<1)){
 
 library(SparkR,lib.loc=c(file.path(Sys.getenv('SPARK_HOME'),'R','lib')))
 
+
+
+# load postgresql & mysql database driver (src_xxx_database)
 library(dplyr)
-library(RPostgreSQL)
+#library(RPostgreSQL)
 
 # Spark 2.x.x
 sparkR.session(master = "spark://10.1.100.128:7077", appName = "R Spark SQL basic example", sparkConfig = list(spark.driver.memory="2g"))
